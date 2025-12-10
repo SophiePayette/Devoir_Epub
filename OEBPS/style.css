@@ -1,0 +1,9 @@
+.img-left{
+    border-radius: 50%;
+    float: right;
+    margin: 15px;
+}
+
+.presentation{ 
+    text-align: justify;
+}
