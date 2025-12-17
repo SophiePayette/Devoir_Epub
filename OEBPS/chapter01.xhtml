@@ -1,112 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+ <head>
+    <title>Chapitre 1</title>
+    <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+    <h1> -- I --</h1>
+   
+   <p>Pendant un demi-siècle, les bourgeoises de Pont-l'Évêque envièrent à Mme Aubain sa servante Félicité. </p>
 
-  <head>
-    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
-    <title>Just a Simple ePub test</title>
-  </head>
+   <p>Pour cent francs par an, elle faisait la cuisine et le ménage, cousait, lavait, repassait, savait brider un cheval, engraisser les volailles, battre le beurre, et resta fidèle à sa maîtresse, -- qui cependant n'était pas une personne agréable. </p>
 
-  <body>
-    <h1>Silly content for display</h1>
-    <p>
-      This is the first paragraph in an ePub digital book (i.e., an
-      electronic book, or e-book). This test is meant to be akin to a
-      programmer's "Hello, World!" application, but since we need the
-      content of the book to be at least moderately long, so that there are
-      reflows, I am trying to be verbose.
-    </p>
+   <p>Elle avait épousé un beau garçon sans fortune, mort au commencement de 1809, en lui laissant deux enfants très jeunes avec une quantité de dettes. Alors elle vendit ses immeubles, sauf la ferme de Toucques et la ferme de Geffosses dont les rentes montaient à 5 000 francs tout au plus, et elle quitta sa maison de Saint-Melaine pour en habiter une autre moins dispendieuse, ayant appartenu à ses ancêtres et placée derrière les halles. </p>
 
-    <p>
-      I expect that the line breaks of ebook readers
-      like <a href="http://www.fbreader.org/">FBReader</a> will be, in
-      particular, a little more beautiful than those presented by the
-      competition, since it uses a good hyphenation algorithm (the same that
-      Prof. Knuth uses in his superb TeX engine?).
-    </p>
+   <p>Cette maison, revêtue d'ardoises, se trouvait entre un passage et une ruelle aboutissant à la rivière. Elle avait intérieurement des différences de niveau qui faisaient trébucher. Un vestibule étroit séparait la cuisine de la salle où Mme Aubain se tenait tout le long du jour, assise près de la croisée dans un fauteuil de paille. Contre le lambris, peint en blanc, s'alignaient huit chaises d'acajou. Un vieux piano supportait, sous un baromètre, un tas pyramidal de boîtes et de cartons. Deux bergères de tapisserie flanquaient la cheminée en marbre jaune et de style Louis XV. La pendule, au milieu, représentait un temple de Vesta, -- et tout l'appartement sentait un peu le moisi, car le plancher était plus bas que le jardin.</p> 
 
-    <h2>Brief description of an ePub archive</h2>
-    <p>
-      An ePub archive is composed of three parts:
-    </p>
+   <p>Au premier étage, il y avait d'abord la chambre de "Madame", très grande, tendue d'un papier à fleurs pâles, et contenant le portrait de "Monsieur" en costume de muscadin. Elle communiquait avec une chambre plus petite, où l'on voyait deux couchettes d'enfants, sans matelas. Puis venait le salon, toujours fermé, et rempli de meubles recouverts d'un drap. Ensuite un corridor menait à un cabinet d'études ; des livres et des paperasses garnissaient les rayons d'une bibliothèque entourant de ses trois côtés un large bureau de bois noir. Les deux panneaux en retour disparaissaient sous des dessins à la plume, des paysages à la gouache et des gravures d'Audran, souvenirs d'un temps meilleur et d'un luxe évanoui. </p>
 
-    <ul>
-      <li>
-	The "content", being constituted of a set of XHTML files (the "real"
-	content of the book), together with Cascading Style Sheets (being a
-	subset of the CSS 2.0 standard, with a few extra properties).
-      </li>
-      <li>
-	Accompanying the content per se, there is a description of the
-	structure of the book, in XML format. This description is made up of
-	a manifest file
-      </li>
-      <li>
-	The final step is just packing it up all in a ZIP file, and with
-	extension <code>.epub</code>. The files inside this container should
-	be in a hierarchy as given by:
-      </li>
-    </ul>
+   <p>Une lucarne au second étage éclairait la chambre de Félicité, ayant vue sur les prairies.</p> 
 
-    <h2>A "Hello, World!" version of an ePub ebook.</h2>
+   <p>Elle se levait dès l'aube, pour ne pas manquer la messe, et travaillait jusqu'au soir sans interruption ; puis, le dîner étant fini, la vaisselle en ordre et la porte bien close, elle enfouissait la bûche sous les cendres et s'endormait devant l'âtre, son rosaire à la main. Personne, dans les marchandages, ne montrait plus d'entêtement. Quant à la propreté, le poli de ses casseroles faisait le désespoir des autres servantes. Économe, elle mangeait avec lenteur, et recueillait du doigt sur la table les miettes de son pain, -- un pain de douze livres, cuit exprès pour elle, et qui durait vingt jours. </p>
 
-    <p>Some gotchas:</p>
+   <p>En toute saison, elle portait un mouchoir d'indienne fixé dans le dos par une épingle, un bonnet lui cachant les cheveux, des bas gris, un jupon rouge, et par-dessus sa camisole un tablier à bavette, comme les infirmières d'hôpital. </p>
 
-    <ul>
-      <li>
-	The directory structure is not obvious at all and it appears to have
-	some variation from descriptions around the Internet.
-      </li>
-      <li>
-	The <code>.epub</code> file is just a zip file that has:
-
-	<ol>
-	  <li>
-	    A certain directory structure (see below)
-	  </li>
-	  <li>
-	    A requirement that the first file, <code>mimetype</code>, to be stored
-	    uncompressed, have exactly the contents <code>application/epub+zip</code>
-	    with no trailing CR, LF, NL etc., and have no special attributes
-	    or extra fields.
-	  </li>
-	  <li>
-	    The tree hierarchy looks approximately like this:
-
-	    <pre>
-         .
-         ├── mimetype
-         ├── META-INF
-         │   └── container.xml
-         └── OEBPS
-             ├── book.ncx
-             ├── book.opf
-             └── chapter01.xhtml
-	    </pre>
-	  </li>
-	</ol>
-      </li>
-      <li>
-	The file <code>container.xml</code> serves as a "bootstrap" for the
-	book.
-      </li>
-      <li>
-	The <code>.opf</code> file contains at a minimum, metadata of the
-	book, the list of all files (except
-	for <code>mimetype</code>, <code>container.xml</code>, and
-	the <code>.opf</code>) that compose the book, with their full path,
-	IDs and media-types, and, lastly, the "linear" list of topics in
-	which the book should be read.
-      </li>
-      <li>
-	The content of the <code>dc:identifier</code> element of
-	the <code>.opf</code> file has to match the property of
-	the <code>meta</code> element with
-	name <code>dtb:uid</code>. Otherwise,
-	<a href="http://www.threepress.org/document/epub-validate/">http://www.threepress.org/document/epub-validate/</a>
-	does not validate the document.
-      </li>
-    </ul>
-
+   <p>Son visage était maigre et sa voix aiguë. A vingt-cinq ans, on lui en donnait quarante. Dès la cinquantaine, elle ne marqua plus aucun âge ; -- et, toujours silencieuse, la taille droite et les gestes mesurés, semblait une femme en bois, fonctionnant d'une manière automatique. </p>
+ 
   </body>
+  
 </html>

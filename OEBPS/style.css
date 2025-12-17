@@ -4,6 +4,10 @@
     margin: 15px;
 }
 
-.presentation{ 
+h1 {
+    text-align: center;
+}
+
+p { 
     text-align: justify;
 }
