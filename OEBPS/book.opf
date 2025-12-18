@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
+<package version="2.0"
+         xmlns="http://www.idpf.org/2007/opf"
+         unique-identifier="uncoeur-id">
 
-<package version="2.0" xmlns="http://www.idpf.org/2007/opf"
-	 unique-identifier="abcdef">
+  <metadata
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:opf="http://www.idpf.org/2007/opf">
 
-  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
-	    xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Un cœur simple (extrait de « Trois contes », 1877)</dc:title>
 
-    <dc:title>Title is Foo Barred</dc:title>
-    <dc:creator opf:role="aut">Rogério Brito</dc:creator>
-    <dc:language>en-US</dc:language>
-    <dc:identifier id="abcdef">abcdef</dc:identifier>
+    <dc:creator opf:role="aut">Flaubert, Gustave (1821–1880)</dc:creator>
+    <dc:contributor>Joël Surcouf</dc:contributor>
+
+    <dc:identifier id="uncoeur-id">uncoeur</dc:identifier>
+    <dc:identifier>flaubertg</dc:identifier>
+    <dc:identifier>surcoufj</dc:identifier>
+
+    <dc:language>fr</dc:language>
+    <dc:format>application/epub+zip</dc:format>
+
+    <dc:source>http://www.abu.org/</dc:source>
+    <dc:rights>Public domain</dc:rights>
+
+    <meta name="dcterms:created" content="1877" />
+    <meta name="dcterms:modified" content="1994-11-13" />
 
   </metadata>
 
+
   <manifest>
-    <item id="chapter01" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapitre01" href="chapitre01.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapitre03" href="chapitre03.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapitre05" href="chapitre05.xhtml" media-type="application/xhtml+xml" />
     <item id="ncx"       href="book.ncx"        media-type="application/x-dtbncx+xml" />
   </manifest>
 
   <spine toc="ncx">
-    <itemref idref="chapter01" />
+    <itemref idref="chapitre01" />
+    <itemref idref="chapitre03" />
+    <itemref idref="chapitre05" />
   </spine>
 </package>
