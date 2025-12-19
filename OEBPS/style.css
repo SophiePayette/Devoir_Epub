@@ -1,3 +1,13 @@
+@font-face{
+    font-family:Georgia;
+    src:"fonts/Georgia.ttf";
+}
+
+@font-face{
+    font-family:Pirata One;
+    src:"fonts/PirataOne-Regular.ttf";
+}
+
 .img-left{
     border-radius: 50%;
     float: right;
@@ -6,10 +16,21 @@
 
 h1 {
     text-align: center;
+    font-family: Pirata One;
 }
 
 p { 
     text-align: justify;
     text-indent: 20px;
     margin: 15px;
+    font-family: Georgia;
+}
+
+.dialogue{
+    text-indent: 35px;
+}
+
+.img-fin{
+   display: block;
+   margin: auto; 
 }
