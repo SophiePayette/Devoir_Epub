@@ -33,6 +33,7 @@
     <item id="chapitre03" href="chapitre03.xhtml" media-type="application/xhtml+xml" />
     <item id="chapitre05" href="chapitre05.xhtml" media-type="application/xhtml+xml" />
     <item id="ncx"       href="book.ncx"        media-type="application/x-dtbncx+xml" />
+    <item id="font-regular" href="fonts/PirataOne-Regular.ttf" media-type="application/font-sfnt"/>
   </manifest>
 
   <spine toc="ncx">
