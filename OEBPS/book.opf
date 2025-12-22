@@ -44,7 +44,9 @@
 
   <manifest>
     <item id="Coverpage" href="Coverpage.xhtml" media-type="application/xhtml+xml" />
+    <item id="Titre" href="Titre.xhtml" media-type="application/xhtml+xml" />
     <item id="copyrights" href="copyrights.xhtml" media-type="application/xhtml+xml" />
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" /
     <item id="Preface" href="Preface.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter01" href="chapter01.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter02" href="chapter02.xhtml" media-type="application/xhtml+xml" />
@@ -59,7 +61,9 @@
 
   <spine toc="ncx">
     <itemref idref="Coverpage" />
+    <itemref idref="Titre" />
     <itemref idref="copyrights" />
+    <itemref idref="toc" />
     <itemref idref="Preface" />
     <itemref idref="chapter01" />
     <itemref idref="chapter02" />
