@@ -9,7 +9,7 @@
 
     <dc:title>Un cœur simple (extrait de « Trois contes », 1877)</dc:title>
 
-    <dc:creator opf:role="aut">Gustave Flaubert</dc:creator>
+    <dc:creator id="creator">Gustave Flaubert</dc:creator>
     <dc:contributor>Joël Surcouf</dc:contributor>
     <dc:contributor>Lune Wagner</dc:contributor>
     <dc:contributor>Sophie Payette</dc:contributor>
