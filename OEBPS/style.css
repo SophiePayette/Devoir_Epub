@@ -8,6 +8,30 @@
     src:"fonts/PirataOne-Regular.ttf";
 }
 
+/*début copyrights*/
+.li {
+  display: inline-block;
+  margin-left: 1.2em;
+  }
+
+
+ol.sub {
+  list-style-type: lower-alpha;
+   
+  }
+
+  .sub li::marker {
+    content: counter(list-item, lower-alpha) ") ";
+  }
+
+.sub-list{
+  display: block;
+  margin: 10px 10px 0;
+  text-align: justify;  
+}
+/*fin copyrights*/
+
+
 .img-left{
     border-radius: 50%;
     float: right;
