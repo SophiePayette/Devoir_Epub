@@ -46,7 +46,7 @@
     <item id="Coverpage" href="Coverpage.xhtml" media-type="application/xhtml+xml" />
     <item id="Titre" href="Titre.xhtml" media-type="application/xhtml+xml" />
     <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
-    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" />
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
     <item id="Preface" href="Preface.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter01" href="chapter01.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter02" href="chapter02.xhtml" media-type="application/xhtml+xml" />
