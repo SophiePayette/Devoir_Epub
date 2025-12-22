@@ -1,0 +1,22 @@
+.li {
+  display: inline-block;
+  margin-left: 1.2em;
+  }
+
+ol.sub {
+  counter-reset: list;
+  }
+
+ol.sub > li {
+  list-style: none;
+  }
+
+ol.sub > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+
+  }
+
+ol.main > li, ol.sub > li {
+  margin: 0.4em 0 0.4em 0;
+}
