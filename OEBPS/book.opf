@@ -23,7 +23,7 @@
 
     <dc:description>Édition numérique au format EPUB de « Un cœur simple » de Gustave Flaubert. Le fichier comprend une présentation de l’auteur, une table des matières et des illustrations (portrait de l’auteur, image de couverture et illustration dans le texte). Le récit suit Félicité, une servante, et dresse un portrait réaliste de la vie provinciale au XIXe siècle, entre dévouement, foi et pertes successives.</dc:description>
 
-    <dc:identifier id="48CAF9D9-F681-4274-93BB-A70290DB17F7">uncoeur</dc:identifier>
+    <dc:identifier id="uncoeur">uncoeur</dc:identifier>
     <dc:identifier>flaubertg</dc:identifier>
     <dc:identifier>surcoufj</dc:identifier>
 
