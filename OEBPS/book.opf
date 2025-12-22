@@ -43,6 +43,8 @@
   </metadata>
 
   <manifest>
+    <item id="Coverpage" href="Coverpage.xhtml" media-type="application/xhtml+xml" />
+    <item id="copyrights" href="copyrights.xhtml" media-type="application/xhtml+xml" />
     <item id="Preface" href="Preface.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter01" href="chapter01.xhtml" media-type="application/xhtml+xml" />
     <item id="chapter02" href="chapter02.xhtml" media-type="application/xhtml+xml" />
@@ -56,6 +58,8 @@
   </manifest>
 
   <spine toc="ncx">
+    <itemref idref="Coverpage" />
+    <itemref idref="copyrights" />
     <itemref idref="Preface" />
     <itemref idref="chapter01" />
     <itemref idref="chapter02" />
