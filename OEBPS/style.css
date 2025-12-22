@@ -7,6 +7,14 @@
     font-family:Pirata One;
     src:"fonts/PirataOne-Regular.ttf";
 }
+/*début coverpage*/
+
+.coverpage{
+    display: block;
+   margin: auto;     
+}
+
+/*fin coverpage*/
 
 /*début copyrights*/
 .li {
@@ -28,6 +36,11 @@ ol.sub {
   margin: 10px 10px 0;
   text-align: justify; 
 }
+
+.copyrights-text{
+    text-indent: 0;
+}
+
 /*fin copyrights*/
 
 
