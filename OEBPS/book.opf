@@ -62,7 +62,7 @@
   <spine toc="ncx">
     <itemref idref="Coverpage" />
     <itemref idref="Titre" />
-    <itemref idref="copyrights" />
+    <itemref idref="copyright" />
     <itemref idref="toc" />
     <itemref idref="Preface" />
     <itemref idref="chapter01" />
