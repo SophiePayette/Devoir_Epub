@@ -39,7 +39,7 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
     </navPoint>
     <navPoint class="preliminaires" id="Preface" playOrder="5">
       <navLabel><text>Préface</text></navLabel>
-      <content src="preface.xhtml"/>
+      <content src="Preface.xhtml"/>
     </navPoint>
        <navPoint class="chapter" id="chapter01" playOrder="6">
       <navLabel><text>Chapitre I</text></navLabel>
