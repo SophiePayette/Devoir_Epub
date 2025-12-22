@@ -9,11 +9,12 @@
 
     <dc:title>Un cœur simple (extrait de « Trois contes », 1877)</dc:title>
 
-    <dc:creator opf:role="aut">Flaubert, Gustave (1821–1880)</dc:creator>
+    <dc:creator opf:role="aut">Gustave Flaubert</dc:creator>
     <dc:contributor>Joël Surcouf</dc:contributor>
     <dc:contributor>Lune Wagner</dc:contributor>
     <dc:contributor>Sophie Payette</dc:contributor>
 
+    <dc:subject>Prose</dc:subject>
     <dc:subject>Littérature française</dc:subject>
     <dc:subject>Réalisme</dc:subject>
     <dc:subject>Normandie</dc:subject>
