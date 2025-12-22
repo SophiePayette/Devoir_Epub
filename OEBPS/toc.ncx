@@ -53,7 +53,6 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
       <navLabel><text>Chapitre III</text></navLabel>
       <content src="chapter03.xhtml"/>
     </navPoint>
-      </navPoint>
        <navPoint class="chapter" id="chapter04" playOrder="9">
       <navLabel><text>Chapitre IV</text></navLabel>
       <content src="chapter04.xhtml"/>
