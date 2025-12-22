@@ -9,27 +9,27 @@
 }
 
 /* début page titre*/
-#page-titre {
+#page-titre{
     height: 100%;
 }
-
 .auteur {
     font-size: 20px;
     text-align: center;
 }
 
 .titre {
-    height: 90%;
-    width: 100%;
     display: flex;
-    align-items: center;
+    height: 500px;
     justify-content: center;
+    align-items: center;
+
 }
+
 /* fin page titre*/
 /*début coverpage*/
 
 .coverpage{
-    display: block;
+   display: block;
    margin: auto;     
 }
 
@@ -47,7 +47,7 @@ ol.sub {
   }
 
 .sub li::marker {
-    content: counter(list-item, lower-alpha) ")";
+  content: counter(list-item, lower-alpha) ")";
   }
 
 .sub-list{
@@ -82,7 +82,7 @@ p {
 }
 
 .dialogue{
-    text-indent: 35px;
+   text-indent: 35px;
 }
 
 .img-fin{
