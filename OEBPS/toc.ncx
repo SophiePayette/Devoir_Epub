@@ -27,7 +27,7 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
     </navPoint>
   <navPoint class="preliminaires" id="Titre" playOrder="2">
       <navLabel><text>Titre</text></navLabel>
-      <content src="titre.xhtml"/>
+      <content src="Titre.xhtml"/>
     </navPoint>
     <navPoint class="preliminaires" id="copyright" playOrder="3">
       <navLabel><text>Copyright</text></navLabel>
@@ -35,36 +35,31 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
     </navPoint>
     <navPoint class="preliminaires" id="toc" playOrder="4">
       <navLabel><text>Table des matières</text></navLabel>
-      <content src="copyrights.xhtml"/>
+      <content src="toc.xhtml"/>
     </navPoint>
     <navPoint class="preliminaires" id="Preface" playOrder="5">
       <navLabel><text>Préface</text></navLabel>
       <content src="preface.xhtml"/>
     </navPoint>
        <navPoint class="chapter" id="chapter01" playOrder="6">
-      <navLabel><text>Chapitre 1</text></navLabel>
+      <navLabel><text>Chapitre I</text></navLabel>
       <content src="chapter01.xhtml"/>
       </navPoint>
        <navPoint class="chapter" id="chapter02" playOrder="7">
-      <navLabel><text>Chapitre 2</text></navLabel>
+      <navLabel><text>Chapitre II</text></navLabel>
       <content src="chapter02.xhtml"/>
-        </navPoint>
       </navPoint>
        <navPoint class="chapter" id="chapter03" playOrder="8">
-      <navLabel><text>Chapitre 3</text></navLabel>
+      <navLabel><text>Chapitre III</text></navLabel>
       <content src="chapter03.xhtml"/>
     </navPoint>
-        </navPoint>
       </navPoint>
        <navPoint class="chapter" id="chapter04" playOrder="9">
-      <navLabel><text>Chapitre 4</text></navLabel>
+      <navLabel><text>Chapitre IV</text></navLabel>
       <content src="chapter04.xhtml"/>
     </navPoint>
-      </navPoint>
-        </navPoint>
-      </navPoint>
        <navPoint class="chapter" id="chapter05" playOrder="10">
-      <navLabel><text>Chapitre 5</text></navLabel>
+      <navLabel><text>Chapitre V</text></navLabel>
       <content src="chapter05.xhtml"/>
     </navPoint>
   </navMap>
