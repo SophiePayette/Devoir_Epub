@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1" xml:lang="fr" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+  <head>
+<!-- The following four metadata items are required for all NCX documents,
+including those that conform to the relaxed constraints of OPS 2.0 -->
+
+    <meta name="dtb:uid" content="48CAF9D9-F681-4274-93BB-A70290DB17F7"/> <!-- same as in .opf -->
+    <meta name="dtb:depth" content="1"/> <!-- 1 or higher -->
+    <meta name="dtb:totalPageCount" content="0"/> <!-- must be 0 -->
+    <meta name="dtb:maxPageNumber" content="0"/> <!-- must be 0 -->
+  </head>
+
+  <docTitle>
+    <text>Un cœur simple</text>
+  </docTitle>
+
+  <docAuthor>
+    <text>Flaubert, Gustave</text>
+  </docAuthor>
+
+  <navMap>
+  <navPoint class="preliminaires" id="Coverpage" playOrder="1">
+      <navLabel><text>Coverpage</text></navLabel>
+      <content src="Coverpage.xhtml"/>
+    </navPoint>
+    <navPoint class="preliminaires" id="copyrights" playOrder="2">
+      <navLabel><text>Copyrights</text></navLabel>
+      <content src="copyrights.xhtml"/>
+    </navPoint>
+    <navPoint class="preliminaires" id="preface" playOrder="3">
+      <navLabel><text>Préface</text></navLabel>
+      <content src="preface.xhtml"/>
+    </navPoint>
+       <navPoint class="chapter" id="chapter01" playOrder="4">
+      <navLabel><text>Chapter 1</text></navLabel>
+      <content src="chapter01.xhtml"/>
+    </navPoint>
+      </navPoint>
+       <navPoint class="chapter" id="chapter02" playOrder="5">
+      <navLabel><text>Chapter 2</text></navLabel>
+      <content src="chapter02.xhtml"/>
+    </navPoint>
+        </navPoint>
+      </navPoint>
+       <navPoint class="chapter" id="chapter03" playOrder="6">
+      <navLabel><text>Chapter 3</text></navLabel>
+      <content src="chapter03.xhtml"/>
+    </navPoint>
+        </navPoint>
+      </navPoint>
+       <navPoint class="chapter" id="chapter04" playOrder="7">
+      <navLabel><text>Chapter 4</text></navLabel>
+      <content src="chapter04.xhtml"/>
+    </navPoint>
+      </navPoint>
+        </navPoint>
+      </navPoint>
+       <navPoint class="chapter" id="chapter05" playOrder="8">
+      <navLabel><text>Chapter 5</text></navLabel>
+      <content src="chapter05.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
