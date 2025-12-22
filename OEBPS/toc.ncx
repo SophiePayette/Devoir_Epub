@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
-"http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
 
-<ncx version="2005-1" xml:lang="fr" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+<ncx version="2005-1" xml:lang="fr" xmlns="http://www.idpf.org/2007/opf">
 
   <head>
 <!-- The following four metadata items are required for all NCX documents,
@@ -35,7 +33,6 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
       <navLabel><text>Copyright</text></navLabel>
       <content src="copyright.xhtml"/>
     </navPoint>
-    </navPoint>
     <navPoint class="preliminaires" id="toc" playOrder="4">
       <navLabel><text>Table des matières</text></navLabel>
       <content src="copyrights.xhtml"/>
@@ -47,12 +44,10 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
        <navPoint class="chapter" id="chapter01" playOrder="6">
       <navLabel><text>Chapitre 1</text></navLabel>
       <content src="chapter01.xhtml"/>
-    </navPoint>
       </navPoint>
        <navPoint class="chapter" id="chapter02" playOrder="7">
       <navLabel><text>Chapitre 2</text></navLabel>
       <content src="chapter02.xhtml"/>
-    </navPoint>
         </navPoint>
       </navPoint>
        <navPoint class="chapter" id="chapter03" playOrder="8">
