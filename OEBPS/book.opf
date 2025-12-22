@@ -37,8 +37,8 @@
 
     <dc:rights>Public domain</dc:rights>
 
-    <meta name="dcterms:created" content="1877" />
-    <meta name="dcterms:modified" content="1994-11-13" />
+    <meta name="dcterms:created">1877</meta>
+    <meta name="dcterms:modified>1994-11-13"</meta>
 
   </metadata>
 
