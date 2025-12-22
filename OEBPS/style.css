@@ -16,18 +16,17 @@
 
 
 ol.sub {
-  list-style-type: lower-alpha;
-   
+  list-style-type: lower-alpha;  
   }
 
-  .sub li::marker {
-    content: counter(list-item, lower-alpha) ") ";
+.sub li::marker {
+    content: counter(list-item, lower-alpha) ")";
   }
 
 .sub-list{
   display: block;
   margin: 10px 10px 0;
-  text-align: justify;  
+  text-align: justify; 
 }
 /*fin copyrights*/
 
