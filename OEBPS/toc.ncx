@@ -37,7 +37,7 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
       <navLabel><text>Table des matières</text></navLabel>
       <content src="copyrights.xhtml"/>
     </navPoint>
-    <navPoint class="preliminaires" id="preface" playOrder="5">
+    <navPoint class="preliminaires" id="Preface" playOrder="5">
       <navLabel><text>Préface</text></navLabel>
       <content src="preface.xhtml"/>
     </navPoint>
