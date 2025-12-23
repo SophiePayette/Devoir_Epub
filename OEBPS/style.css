@@ -74,10 +74,14 @@ h1 {
     font-family: "Pirata One";
 }
 
-p, li { 
+p { 
     text-align: justify;
     text-indent: 20px;
     margin: 15px;
+    font-family: "Georgia";
+}
+
+li {
     font-family: "Georgia";
 }
 
